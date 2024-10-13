@@ -1,0 +1,11 @@
+@Media.API_HostAddress = http://localhost:5026
+
+GET {{Media.API_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Media.API_HostAddress}}/todos/1
+Accept: application/json
+
+###
